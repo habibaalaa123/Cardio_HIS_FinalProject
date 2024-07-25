@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleMakeAppointment.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Make Appointments</title>
+    <link rel="icon" type="image/x-icon" href="Photos\logoOrange-light.png">
+
+
+
+</head>
+
+<body style="overflow-y: hidden; margin: 0px;">
+    <div class="container-fluid">
+        <div class="row h-100" style="height: 100%;">
+            <div class="col-1 navbar" style="background-color:var(--navbar);">
+                <div style="text-align: center;">
+                    <img  id="logo" src="Photos/logoPink.png" alt="Logo"style="margin: 30px;">
+                    <div
+                        style="display: flex; align-items: center; justify-content: center; margin: 15px;font-size: 15px;">
+                        <img src="Photos/homeIcon.png" alt="Home Icon"
+                            style="width: 20px; height: 20px; margin-right: 5px; margin-left: -5px;">
+                        <a id="home" href="HomePage.html" style="color: white; text-decoration: none;">Home</a>
+                    </div>
+                    <div
+                        style="display: flex; align-items: center; justify-content: center; margin: 15px;font-size: 15px;">
+                        <img src="Photos/profileIcon.png" alt="Home Icon"
+                            style="width: 20px; height: 20px; margin-right: 5px; margin-left: -5px;">
+                        <a id="profile" href="patientProfile.html" style="color: white; text-decoration: none;">Profile</a>
+                    </div>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="darkmode" class="darkmode-input" />
+                    <label for="darkmode" class="darkmode-label" style="margin:25px;">
+                        <svg class="moon" height="200px" width="200px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path id="Moon"
+                                    d="M63.4374046,38.4606323c-0.4258003-0.2060013-0.9384995-0.0848999-1.2276001,0.2910995 c-1.2803001,1.6650009-2.9452972,3.2001991-4.9501991,4.5625c-11.6180992,7.8808022-27.544899,4.9248009-35.4971008-6.5956993 c-7.8154011-11.3204002-4.9902-26.9736996,6.2968998-34.8936005c0.3799-0.2666,0.5263996-0.7588,0.3544998-1.1895001 c-0.1728001-0.4316-0.625-0.6835-1.0771008-0.6181c-4.6474991,0.6953-9.2070999,2.4902-13.1875,5.1893997 C6.9706059,10.0759325,2.1415057,17.427433,0.5526057,25.9079323c-1.582,8.4414024,0.2402,16.9932022,5.1308002,24.0791016 c6.2872,9.1054993,16.4864006,14.0058975,26.8554993,14.0058975c6.3173981,0,12.6982994-1.819397,18.2939987-5.6161995 c6.5800018-4.461998,11.2461014-11.1298981,13.1406021-18.7753983 C64.0877075,39.142334,63.8631058,38.6657333,63.4374046,38.4606323z M49.7098045,56.7224312 c-13.8710976,9.410099-32.8847961,5.8828011-42.3798981-7.872097c-4.5858998-6.642601-6.2948999-14.660202-4.8114996-22.5742016 C4.0086055,18.3239326,8.5379057,11.4294329,15.2723055,6.861033c2.5801001-1.75,5.4189997-3.0937002,8.3643007-3.9726 c-9.3916006,9.0702991-11.1416006,23.9258003-3.5205002,34.9668007 c8.5741997,12.4188995,25.7422009,15.6094017,38.2666016,7.1133003c0.8260994-0.5606003,1.5996017-1.149498,2.3182983-1.764698 C58.4803047,48.6472321,54.6766052,53.3542328,49.7098045,56.7224312z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg class="sun" height="200px" width="200px" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g id="Sum">
+                                    <path
+                                        d="M17,31.9727993c0,8.295599,6.7157001,15.0206013,15,15.0206013s15-6.7250023,15-15.0206013 c0-8.2957001-6.7157021-15.0206985-15-15.0206985S17,23.6770992,17,31.9727993z M45,31.9727993 c0,7.1779995-5.8317986,13.0178013-13,13.0178013c-7.1681843,0-13-5.8398018-13-13.0178013 c0-7.1780987,5.8318157-13.0178986,13-13.0178986C39.1682014,18.9549007,45,24.7947006,45,31.9727993z">
+                                    </path>
+                                    <path
+                                        d="M32.7421989,11.7700996c0.5527,0,1-0.4478998,1-1.0014V1.0014c0-0.5535-0.4473-1.0014-1-1.0014 c-0.5527992,0-0.9999981,0.4479-0.9999981,1.0014v9.7672997C31.7422009,11.3221998,32.1893997,11.7700996,32.7421989,11.7700996z">
+                                    </path>
+                                    <path
+                                        d="M48.6445007,4.6588001C48.1640015,4.3790998,47.5527,4.5443001,47.2783012,5.0235l-4.8838005,8.4578991 c-0.2773018,0.4792004-0.1133003,1.0914001,0.364315,1.3681002c0.1581841,0.0918999,0.3300858,0.1350002,0.5,0.1350002 c0.3456841,0,0.6815834-0.1789999,0.8661842-0.4996996l4.8838158-8.4580002 C49.2860985,5.5476999,49.1221008,4.9355001,48.6445007,4.6588001z">
+                                    </path>
+                                    <path
+                                        d="M50.7616997,23.0286999c0.1689987,0,0.3408012-0.0429993,0.4990005-0.1340008l8.4580002-4.8835983 c0.4776001-0.2758007,0.6425972-0.8889008,0.3661995-1.3681011c-0.2763023-0.4771996-0.8837013-0.6434994-1.3661995-0.3666992 l-8.4580002,4.8836002c-0.4775009,0.2757988-0.6425018,0.8889999-0.3661995,1.3680992 C50.0790977,22.8488007,50.4160004,23.0286999,50.7616997,23.0286999z">
+                                    </path>
+                                    <path
+                                        d="M11.7676001,32.7421989c0-0.5533981-0.4473-1.0012989-0.999999-1.0012989H1.0000008c-0.5527,0-1,0.4479008-1,1.0012989 c0,0.5535011,0.4473,1.0014,1,1.0014h9.7676001C11.3203001,33.7435989,11.7676001,33.2957001,11.7676001,32.7421989z">
+                                    </path>
+                                    <path
+                                        d="M4.2822008,18.0111008L12.7402,22.8946991c0.1582003,0.0910015,0.3291006,0.1340008,0.4990005,0.1340008 c0.3457003,0,0.6827002-0.1798992,0.8671999-0.5007c0.2764149-0.4790993,0.1114149-1.0923004-0.3662004-1.3680992 l-8.4579992-4.8836002c-0.4813852-0.2768002-1.0918002-0.1125011-1.3662002,0.3666992 C3.6396008,17.1222,3.8047006,17.7353001,4.2822008,18.0111008z">
+                                    </path>
+                                    <path
+                                        d="M20.7411995,14.9844999c0.1699009,0,0.3418007-0.0431004,0.4990005-0.1339998 c0.4785004-0.2777004,0.6426163-0.8899002,0.3661995-1.3681002l-4.8827991-8.4579 c-0.2772999-0.4801998-0.8895998-0.6444001-1.3661995-0.3666997c-0.4785004,0.2776999-0.6425858,0.8898997-0.3662004,1.3680997 l4.8828001,8.4579C20.0596008,14.8055,20.3955002,14.9844999,20.7411995,14.9844999z">
+                                    </path>
+                                    <path
+                                        d="M32.7421989,52.2318993c-0.5527992,0-0.9999981,0.4478989-0.9999981,1.0014V62.9986 c0,0.5535011,0.4471989,1.0014,0.9999981,1.0014c0.5527,0,1-0.4478989,1-1.0014v-9.7653008 C33.7421989,52.6797981,33.294899,52.2318993,32.7421989,52.2318993z">
+                                    </path>
+                                    <path
+                                        d="M22.5272999,49.8936996c-0.4813995-0.2795982-1.0907993-0.114399-1.3661995,0.3647995l-4.8838005,8.457901 C16,59.1955986,16.1639996,59.8077011,16.6415997,60.0844994c0.1582165,0.0918999,0.330101,0.1348991,0.5,0.1348991 c0.3457012,0,0.6816006-0.1788979,0.8662167-0.4996986l4.8837833-8.457901 C23.1688995,50.7826004,23.0049,50.1705017,22.5272999,49.8936996z">
+                                    </path>
+                                    <path
+                                        d="M13.4824009,42.3922005l-8.4580002,4.8837013c-0.4775,0.2756996-0.6425853,0.8888969-0.3662,1.3680992 c0.1846147,0.3206978,0.5215001,0.5006981,0.8671999,0.5006981c0.1689,0,0.3407998-0.0430984,0.4990001-0.1339989 l8.4580002-4.8837013c0.4775-0.2756996,0.6425991-0.8889008,0.3661995-1.3680992 C14.5732002,42.2807007,13.9639006,42.1144981,13.4824009,42.3922005z">
+                                    </path>
+                                    <path
+                                        d="M63,31.7409h-9.7656021c-0.5527992,0-1,0.4479008-1,1.0012989c0,0.5535011,0.4472008,1.0014,1,1.0014H63 c0.5527,0,1-0.4478989,1-1.0014C64,32.1888008,63.5527,31.7409,63,31.7409z">
+                                    </path>
+                                    <path
+                                        d="M58.9756012,47.2759018l-8.4580002-4.8837013c-0.4805031-0.2766991-1.0917854-0.1114998-1.3662033,0.3666992 c-0.2763977,0.4791985-0.1113968,1.0923996,0.3662033,1.3680992l8.4580002,4.8837013 c0.1582146,0.0909004,0.3290977,0.1339989,0.4989967,0.1339989c0.3457031,0,0.6826019-0.1800003,0.867218-0.5006981 C59.6181984,48.1647987,59.4530983,47.5516014,58.9756012,47.2759018z">
+                                    </path>
+                                    <path
+                                        d="M42.8378983,50.2584991c-0.2753983-0.4791985-0.8866997-0.6443977-1.3661995-0.3647995 c-0.4776001,0.2768021-0.6415977,0.8889008-0.3642998,1.3680992l4.8838005,8.457901 c0.1846161,0.3208008,0.5205002,0.4996986,0.8661995,0.4996986c0.169899,0,0.3418007-0.0429993,0.5-0.1348991 c0.4775009-0.2767982,0.6416016-0.8889008,0.3642998-1.3680992L42.8378983,50.2584991z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+
+                    </label>
+                    <a id="logout" href="login.html" style="color: white; text-decoration: none; margin: 25px;">Logout</a>
+                </div>
+            </div>
+
+            <div class="col content-column">
+                <div class="row">
+                    <div class="col-6 nonScrollable-col" id="makeAppointmentTrans">
+                        <img src="./Photos/Person Vector.png" style="margin-top:15%; margin-left: 15%;">
+                    </div>
+                    <div class="col-6 Scrollable-col"
+                        style=" margin-top: 100px; border-radius: 20px; background-color: var(--other-card); box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.258);">
+                        <h3 style="color: var(--text-purple);  margin-left: 5%; margin-bottom: 5%; margin-top: 5%;">Make
+                            Appointment</h3>
+                        <form name="form1" id="editDoctor" action="" style="display: flex; flex-direction: row;">
+                            <label for="doctors"></label>
+                            <select id="doctorsEdit" class="custom-dropdown"
+                                style="margin-bottom: 30px; margin-top: 0px;margin-left: 5%; width:70%;">
+                                <option value="" selected disabled>Choose Doctor:</option>
+                                <!-- <option id="doctorOptions"> Dr. Maya </option> -->
+                            </select>
+                            <input type="submit" value="Search Appoint" class="editDoctorBtn" id="searchAppointment">
+                        </form>
+                        <h4 style="color: var(--text-purple); margin-left: 23px; margin-bottom: 23px;">Available
+                            Appointments:</h4>
+                        <!-- <a href="" id="appointments" style="display: block; margin-left: 23px; font-size: 16px; font-weight: bold;text-decoration: underline; color: #EF8481; margin-top: 20px;">Appointment 1</a> -->
+                        <table id="appointmentsTable" border="1">
+
+                        </table>
+                    </div>
+                    <!-- <div style="margin-top: -75px; margin-left: 75%;">
+                        <input type="submit" value="Done" class="editDoctorBtn" id="makeAppointment" >
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript files/darkmode.js"> </script>
+    <script src="javascript files/makeAppointment.js"></script>
+</body>
+
+</html>

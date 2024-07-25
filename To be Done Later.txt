@@ -1,0 +1,41 @@
+When editing phone number it concatenates it not removing the old one --> Cancel
+
+Patient Editing the health insurance front and back --> Done
+
+Patient changing password --> Done
+
+Doctor sees who (PID) has the reserved appointment in his profile --> Done
+
+In making appointment as a patient , doctor name appear with its email --> DONE
+
+A place to view patient scans --> Done
+
+upcoming and post appointments in doctor --> Done
+
+phone number display in doctor profile --> Done
+
+Displaying no messages found and no reserved appointments --> Done
+
+Deleting the appointments reserved --> Done
+
+Delete Doctor  --> Done
+
+HomePage  --> Done
+
+Pop Up Notifications  --> Future Work
+
+Statistics Integration --> Done
+
+Patient and Doctor Credits / Points --> Future Work
+
+Doctor Profile and Patient Profile picture Image 
+
+Split Time in appointments --> Done
+
+solve the problem of showing the reports --> Done
+
+Appointment of Khalil still shows up --> Done
+
+Button not working --> Done
+
+@cardiodoc registeration --> Done
