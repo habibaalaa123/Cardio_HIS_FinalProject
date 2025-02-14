@@ -115,7 +115,7 @@ Ensure you have the following installed:
 
 
 ## Acknowledgments 
-This project was supervised by Dr. Ahmed Hisham & Eng. Abdallah Darwish, who provided invaluable guidance and expertise throughout its development as a part of the Digital Signal Processing course at Cairo University Faculty of Engineering.
+This project was supervised by Dr. Ahmed Hisham & Eng. Abdallah Darwish, who provided invaluable guidance and expertise throughout its development as a part of the Database course at Cairo University Faculty of Engineering.
 
 ## Contributing
 1. Fork the repository
