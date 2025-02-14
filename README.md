@@ -114,12 +114,8 @@ Ensure you have the following installed:
 ---
 
 
-<!-- ## Screenshots & Videos
-### Screenshots
-(Insert screenshots of the website here)
-
-### Video Demonstration
-(Insert link to a demo video here)
+## Acknowledgments 
+This project was supervised by Dr. Ahmed Hisham & Eng. Abdallah Darwish, who provided invaluable guidance and expertise throughout its development as a part of the Digital Signal Processing course at Cairo University Faculty of Engineering.
 
 ## Contributing
 1. Fork the repository
@@ -128,9 +124,5 @@ Ensure you have the following installed:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a Pull Request
 
-## License
-This project is licensed under the MIT License. -->
 
-## Contact
-For any inquiries, reach out via [mostafaalisarhan@gmail.com](mailto:mostafaalisarhan@gmail.com).
 
