@@ -12,20 +12,25 @@ This project is a web application designed to simulate a **Hospital Information 
 - **Home Page:** Landing page for visitors with an overview of the hospital system.
 <!-- ![Application Overview](assets/Registeration.mp4 "Overview of website") -->
 ![Application Overview](assets/home_page_screenshot.png "Overview of website")
-- **User Management:** Secure registration and login for different user types (Doctors, Patients, Admins, etc.).
-<!-- [Watch the Video](assets\Registeration.mp4) -->
-<video width="600" controls>
-  <source src="https://github.com/Mostafaali3/Cardio_HIS_FinalProject/blob/main/assets/Registeration%20-%20Made%20with%20Clipchamp.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+- **User Management:** Secure registration and login for different user types (Doctors, Patients, Admins, etc.)
 
 - **Profile Management:** Each user has a personal profile (e.g., doctor profiles, patient medical history).
+  
+  https://github.com/user-attachments/assets/ee70cbdf-141c-40db-b80c-748427e78fbf
+  
 - **File Handling:** Upload and serve static files (e.g., patient scans and reports).
+  
+  https://github.com/user-attachments/assets/9e61f93c-f62a-4255-8381-5288884b8d1c
 - **Appointments System:** Patients can book appointments with doctors.
+- 
+  https://github.com/user-attachments/assets/97a63305-82bb-4f77-94fe-38b819de7fab
+  
 - **Admin Dashboard:** Statistical analysis dashboard for administrators. the admins can access the database of the doctors and the patients, can edit and add a new doctor, also he can access edit the medications quantities in the stock. also he is the only ine who can add a new doctors to the system.
 ![Application Overview](assets/admin_screenshot.png "Overview of website")
 - **doctor patient communication:** the doctor and the patients can reach each others by the chatting system provided in the profile of each one of them. the user choses the name of the doctor and send him a message and vice versa.
-
+  
+  https://github.com/user-attachments/assets/2101acca-4689-4122-88a8-93a680a583eb
+  
 ### New Feature: Medication Billing System
 - **Medication Stock Database:** Tracks available medications in the hospital's inventory.
 - **Billing System:** Allows doctors and pharmacists to generate bills for prescribed medications.
