@@ -10,8 +10,15 @@ This project is a web application designed to simulate a **Hospital Information 
 ## Features
 ### Core Functionalities
 - **Home Page:** Landing page for visitors with an overview of the hospital system.
+<!-- ![Application Overview](assets/Registeration.mp4 "Overview of website") -->
 ![Application Overview](assets/home_page_screenshot.png "Overview of website")
 - **User Management:** Secure registration and login for different user types (Doctors, Patients, Admins, etc.).
+<!-- [Watch the Video](assets\Registeration.mp4) -->
+<video width="600" controls>
+  <source src="https://github.com/Mostafaali3/Cardio_HIS_FinalProject/blob/main/assets/Registeration%20-%20Made%20with%20Clipchamp.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - **Profile Management:** Each user has a personal profile (e.g., doctor profiles, patient medical history).
 - **File Handling:** Upload and serve static files (e.g., patient scans and reports).
 - **Appointments System:** Patients can book appointments with doctors.
