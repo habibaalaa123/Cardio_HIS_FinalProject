@@ -14,6 +14,8 @@ This project is a web application designed to simulate a **Hospital Information 
 ![Application Overview](assets/home_page_screenshot.png "Overview of website")
 - **User Management:** Secure registration and login for different user types (Doctors, Patients, Admins, etc.)
 
+ ![Demo](assets/Registeration-MadewithClipchamp-ezgif.com-video-to-gif-converter.gif)
+
 - **Profile Management:** Each user has a personal profile (e.g., doctor profiles, patient medical history).
   
   https://github.com/user-attachments/assets/ee70cbdf-141c-40db-b80c-748427e78fbf
